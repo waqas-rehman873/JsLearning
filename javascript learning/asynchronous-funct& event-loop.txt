@@ -1,0 +1,12 @@
+web apis window ---browser
+settimeout()--dom apis--fetch()--console-- these are browser api 
+ console.log("start");
+ //first global exe context is created then put in the call stack 
+ //add eevent listener will remain after the gcb will exit until to close browser
+ //if settimeout is set the the exe will move on next js waits for none
+ after  the time completeb it will goes to stack queue  from that event loop will get it to callstack to execute 
+
+document.getElementbyId("btn").addEventListener("click",funct.console.log...etc):
+console.log("end");
+browser-->js engine-->callStack-->global exe stack-->local exe stack
+ 

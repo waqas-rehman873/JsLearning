@@ -1,0 +1,16 @@
+
+ lexical environment of its local memory +  lexical environment from its parent 
+lexical--- is heirarchy --in order --insided  
+lexical environment
+ is a data structure that store  variables and functions     it allows interpreter to recognise 
+which element and functions are accessible at different scopes within program  
+function f1(){
+     f2();
+    var s=12;
+    function f2(){
+        console.log(s);
+    }
+}
+f1().f2(); 
+whole lexical environments are making a chain are called scope chain
+ f2(holds  local var and funcs f1-parent )

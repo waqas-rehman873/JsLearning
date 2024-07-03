@@ -1,0 +1,25 @@
+js have two phses 
+memory and code 
+n=2;
+function fun(n){
+    return n+1;
+}
+fun(n);
+fun(4);
+in this first will run the code  the assign memory undefined to it 
+like  
+'n=undefinded
+fun {..}
+fun: undefined 
+then second phase is code execution phase it assign 
+n=2;
+function fun(2){
+    return 2+1;
+}
+when return the value function execution will be delete 
+and when whole program  done the whole execution delete 
+/this will manage the whole process by call stack
+in bottom of stack is global execution box or block
+execution 1 when done it will popout it    and put in next ex2 
+and after whole program exe then global will also delete
+it all maintain order  of exe contexts
